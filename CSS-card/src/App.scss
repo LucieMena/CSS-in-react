@@ -1,22 +1,29 @@
 $font-stack: Helvetica, sans-serif;
 $background-color : #ffff;
+$font-color-regular: grey;
 
 
 .card-container {
     background-color: $background-color;
     display: flex;
+    flex-direction: column;
+    color:$font-color-regular;
+    width: 120%;
     .item-container {
         display: flex;
+        border-bottom: solid grey;
+
         .img-container {
             img {
                 width: 200px;
             }
         };
         .name-container {
-
+            h1 {color:black;}
+            padding : 3%;
         };
     };
     .rating-card {
-
+        margin: 3%;
     };
 };
