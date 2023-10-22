@@ -1,0 +1,22 @@
+$font-stack: Helvetica, sans-serif;
+$background-color : #ffff;
+
+
+.card-container {
+    background-color: $background-color;
+    display: flex;
+    .item-container {
+        display: flex;
+        .img-container {
+            img {
+                width: 200px;
+            }
+        };
+        .name-container {
+
+        };
+    };
+    .rating-card {
+
+    };
+};
